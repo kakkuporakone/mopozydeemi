@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.topbar {
+    background-color: black;
+    
+    h1 {
+        color: white;
+        font-size: 100px;
+        margin: 0;
+    }
+}
+
+.layoutwrapper {
+    display: flex;
+    gap: 10px; /* Space between the container and leaderboard */
+    align-items: flex-start; /* Aligns them at the top */
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
+    flex: 0.62;
+}
+
+.leftpanel, 
+.secondpanel {
+    width: 550px; 
+}
+
+.star {
+    color: yellow;
+}
+
+.leaderboard {
+    flex: 0.2;
+    width: 300px; 
+    flex-shrink: 0; 
+    background-color: lightcoral;
+    
+    h2 {
+        font-size: 50px;
+    }
+    
+    li {
+        font-size: 30px;
+    }
+}
