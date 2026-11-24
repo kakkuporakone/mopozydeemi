@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: lightslategray;
     margin: 0;
     font-family: sans-serif;
 }
@@ -24,8 +24,9 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    gap: 16px; 
-    flex: 0.62;
+    gap: 10px; 
+    flex: 0.7;
+    background-color: lightblue;
 }
 
 .leftpanel, 
@@ -38,7 +39,7 @@ body {
 }
 
 .leaderboard {
-    flex: 0.2;
+    flex: 0.15;
     width: 300px; 
     flex-shrink: 0; 
     background-color: lightcoral;
